@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    outline: none;
+}
+body{
+    width: auto;
+    color: white;
+    background-color: black;
+}
+.main{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+}
+.nav-bar{
+    display: flex;
+    background-color: black;
+    list-style-type: none;
+    margin-left: -50px;
+    padding-left: 79.6%;
+    overflow: hidden;
+}
+ul{     /* !sticky navbar */
+    position: -webkit-sticky;   
+    position: sticky;
+    top: 0px;
+}
+li{     /* !border */
+    border-right: 1px solid #f01818;
+    float: left;
+}
+li:last-child{
+    border-right: none;
+}
+.nav-bar a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 17px;
+    text-decoration: none;
+}
+.nav-bar a:hover{
+    background-color: #f01818;
+}
+.active a{
+    background-color: #f01818;
+}
+.title{
+    padding: 2%;
+    padding-bottom: 1%;
+    text-align: center;
+}
+.bullslogo{
+    float: left;
+    width: 200px;
+    top: 0%;
+    left: 0%;
+    position: absolute;
+}
+div .rodman{
+    position: relative;
+}
+.rodman{
+    margin-left: 29.5%;
+    width: 650px;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
+}
+.img-cap figcaption{
+    text-align: center;
+    width: 650px;
+    padding-left: 477px;
+    padding-bottom: 2%;
+}
+.pargraph{
+    font-size: 165%;
+}
+.pargraph p{
+    margin: 10px;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+.sublink{
+    background-color: #272829;
+    margin: 0px;
+    padding-left: 0%;
+    overflow: hidden;
+    text-align: center;
+}
+.sublink img{
+    width: 40px;
+    height: 40px;
+    padding-right: 2%;
+    border: 1px solid;
+    align-items: center;
+    background-origin: padding-box;
+    border-color: transparent;
+}
